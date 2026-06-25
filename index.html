@@ -3,184 +3,298 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alex's Minecraft Staff Portfolio</title>
+<title>Alex | Minecraft Staff Portfolio</title>
 
 <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    margin:0;
     font-family:Arial, sans-serif;
-    background:#121212;
-    color:white;
+    background:#0d1117;
+    color:#e6edf3;
+    line-height:1.6;
 }
 
-header{
-    background:linear-gradient(135deg,#2e7d32,#43a047);
+.hero{
+    background:linear-gradient(135deg,#2e7d32,#43a047,#66bb6a);
     text-align:center;
-    padding:50px 20px;
+    padding:80px 20px;
 }
 
-header h1{
-    margin:0;
-    font-size:3em;
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
 }
 
-header p{
-    font-size:1.2em;
+.hero p{
+    font-size:1.3rem;
 }
 
 .container{
-    max-width:1000px;
+    max-width:1100px;
     margin:auto;
-    padding:20px;
+    padding:30px 20px;
 }
 
 .card{
-    background:#1e1e1e;
-    padding:20px;
-    margin:20px 0;
-    border-radius:12px;
-    box-shadow:0 0 10px rgba(0,0,0,.4);
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
 }
 
-h2{
+.card h2{
+    color:#58a6ff;
+    margin-bottom:15px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    margin-bottom:25px;
+}
+
+.stat{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:15px;
+    text-align:center;
+    padding:25px;
+}
+
+.stat h3{
+    font-size:2rem;
     color:#4caf50;
 }
 
 .rank{
     display:inline-block;
-    background:#4caf50;
-    color:white;
-    padding:5px 10px;
-    border-radius:6px;
+    padding:6px 12px;
+    border-radius:8px;
+    font-weight:bold;
     margin-bottom:10px;
 }
 
+.srmod{background:#d32f2f;}
+.mod{background:#1976d2;}
+.admin{background:#8e24aa;}
+.helper{background:#388e3c;}
+
 ul{
-    line-height:1.8;
+    padding-left:20px;
 }
 
-footer{
+.timeline{
+    border-left:3px solid #4caf50;
+    padding-left:20px;
+}
+
+.timeline div{
+    margin-bottom:20px;
+}
+
+.footer{
     text-align:center;
-    padding:20px;
-    background:#1a1a1a;
-    margin-top:30px;
+    padding:30px;
+    color:#8b949e;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Alex's Minecraft Staff Portfolio</h1>
-    <p>Experienced Minecraft Moderator & Community Leader</p>
-</header>
+<div class="hero">
+    <h1>Alex</h1>
+    <p>Minecraft Staff Portfolio</p>
+    <p>Senior Moderator • Community Leader • Experienced Staff Member</p>
+</div>
 
 <div class="container">
 
-<div class="card">
-<h2>About Me</h2>
-<p>
-Hello! My name is Alex. I am an experienced Minecraft staff member with
-leadership, moderation, and community management experience across
-multiple servers. I enjoy helping players, resolving conflicts,
-enforcing rules fairly, and contributing to positive communities.
-</p>
+<div class="stats">
+    <div class="stat">
+        <h3>5</h3>
+        <p>Total Staff Positions</p>
+    </div>
+
+    <div class="stat">
+        <h3>3</h3>
+        <p>Current Positions</p>
+    </div>
+
+    <div class="stat">
+        <h3>2</h3>
+        <p>Leadership Roles</p>
+    </div>
+
+    <div class="stat">
+        <h3>100%</h3>
+        <p>Community Focused</p>
+    </div>
 </div>
 
 <div class="card">
-<h2>Current Staff Positions</h2>
+<h2>About Me</h2>
 
-<div class="rank">Senior Moderator</div>
+<p>
+Hello! My name is Alex, and I am an experienced Minecraft staff member with a strong background in moderation, leadership, community management, and player support.
+</p>
+
+<br>
+
+<p>
+Throughout my staffing journey, I have worked on multiple Minecraft communities ranging from Helper to Administrator and Senior Moderator. These roles have helped me develop strong communication, leadership, problem-solving, and conflict-resolution skills.
+</p>
+
+<br>
+
+<p>
+My goal as a staff member is to create a positive environment where players feel welcome, supported, and treated fairly.
+</p>
+
+</div>
+
+<div class="card">
+<h2>Current Positions</h2>
+
+<span class="rank srmod">Senior Moderator</span>
 <h3>CrystalRanked</h3>
+
 <ul>
 <li>Handle player reports and appeals</li>
 <li>Investigate rule violations</li>
-<li>Assist and mentor staff members</li>
+<li>Mentor staff members</li>
 <li>Resolve player disputes</li>
-<li>Support server operations and events</li>
+<li>Assist with moderation decisions</li>
 </ul>
 
-<div class="rank">Moderator</div>
+<br>
+
+<span class="rank mod">Moderator</span>
 <h3>Spicy SMP</h3>
+
 <ul>
-<li>Moderate chat and player interactions</li>
-<li>Handle reports and support requests</li>
-<li>Assist players with questions</li>
-<li>Help maintain a positive community</li>
+<li>Moderate player interactions</li>
+<li>Handle reports</li>
+<li>Assist community members</li>
+<li>Maintain a positive environment</li>
 </ul>
 
-<div class="rank">Moderator</div>
+<br>
+
+<span class="rank mod">Moderator</span>
 <h3>Arcadia</h3>
+
 <ul>
 <li>Monitor player behavior</li>
-<li>Handle reports</li>
 <li>Enforce server rules</li>
+<li>Handle reports</li>
 <li>Support community management</li>
 </ul>
 
 </div>
 
 <div class="card">
-<h2>Previous Staff Experience</h2>
+<h2>Previous Experience</h2>
 
-<div class="rank">Administrator</div>
+<span class="rank admin">Administrator</span>
 <h3>RobbleStone (Resigned)</h3>
+
 <ul>
-<li>Assisted with server administration</li>
+<li>Assisted with administration</li>
 <li>Managed staff situations</li>
-<li>Handled escalated player concerns</li>
+<li>Handled escalated concerns</li>
 <li>Supported server operations</li>
 </ul>
 
-<div class="rank">Helper</div>
+<br>
+
+<span class="rank helper">Helper</span>
 <h3>ImpendMC (Resigned)</h3>
+
 <ul>
-<li>Assisted players with support requests</li>
-<li>Helped new members learn server features</li>
+<li>Helped players with questions</li>
+<li>Supported staff members</li>
 <li>Reported bugs and issues</li>
-<li>Supported the moderation team</li>
+<li>Assisted new players</li>
 </ul>
+
+</div>
+
+<div class="card">
+<h2>Staff Career Timeline</h2>
+
+<div class="timeline">
+<div>
+<strong>Helper</strong> — ImpendMC
+</div>
+
+<div>
+<strong>Administrator</strong> — RobbleStone
+</div>
+
+<div>
+<strong>Moderator</strong> — Arcadia
+</div>
+
+<div>
+<strong>Moderator</strong> — Spicy SMP
+</div>
+
+<div>
+<strong>Senior Moderator</strong> — CrystalRanked
+</div>
+</div>
 
 </div>
 
 <div class="card">
 <h2>Skills</h2>
+
 <ul>
 <li>Leadership</li>
 <li>Staff Management</li>
 <li>Community Management</li>
-<li>Rule Enforcement</li>
 <li>Conflict Resolution</li>
+<li>Rule Enforcement</li>
 <li>Player Support</li>
 <li>Discord Moderation</li>
-<li>Professional Communication</li>
 <li>Problem Solving</li>
+<li>Professional Communication</li>
+<li>Team Collaboration</li>
 </ul>
+
 </div>
 
 <div class="card">
-<h2>Achievements</h2>
-<ul>
-<li>Senior Moderator at CrystalRanked</li>
-<li>Moderator on multiple Minecraft communities</li>
-<li>Former Administrator at RobbleStone</li>
-<li>Experience with Minecraft and Discord moderation</li>
-<li>Strong leadership and communication skills</li>
-</ul>
+<h2>Why I Want Staff Positions</h2>
+
+<p>
+I enjoy helping players and improving communities. I believe staff members should be fair, active, respectful, and professional. My goal is always to support players while helping maintain a safe and enjoyable environment for everyone.
+</p>
+
 </div>
 
 <div class="card">
 <h2>Contact Information</h2>
+
 <p><strong>GitHub:</strong> Krankovich19</p>
-<p><strong>Discord:</strong> Krankovich19</p>
+<p><strong>Discord:</strong> krankovich19</p>
 <p><strong>Minecraft Username:</strong> Krankovich19</p>
-</div>
 
 </div>
 
-<footer>
-    © 2026 Alex's Minecraft Staff Portfolio
-</footer>
+</div>
+
+<div class="footer">
+2026 • Alex's Minecraft Staff Portfolio
+</div>
 
 </body>
 </html>
